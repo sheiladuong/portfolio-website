@@ -13,6 +13,12 @@ Import `Montserrat`, `Syne`, and `Petit Formal Script` from Google Fonts
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
+  background-image: url('/assets/background-gradient.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,14 +39,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
-
-  background-image: url('/assets/background-gradient.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
-  height: 100vh;
+  min-height: 100vh;  
 }
 
 h1 {
