@@ -32,6 +32,31 @@
 }
 /* Navbar.jsx */
 
+/* AboutMe.jsx */
+.aboutme-container {
+  margin: 100px 0;
+  display: flex;
+  place-content: center;
+}
+.aboutme-container .title-section .name {
+  font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin: 0; 
+}
+.aboutme-container .title-section .title {
+  font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin: 0; 
+}
+.aboutme-container .title-section .script {
+  font-family: 'Petit Formal Script', Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.headshot-section img {
+  width: 15rem;
+}
+/* AboutMe.jsx */
+
 /* Media Queries */
 /* Extra large devices (large laptops and desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
