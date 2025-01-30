@@ -25,11 +25,9 @@
   filter: drop-shadow(0 0 0.1em #3a3548)
 }
 
-
 .nav-links {
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
-
 /* Navbar.jsx */
