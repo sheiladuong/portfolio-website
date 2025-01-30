@@ -31,3 +31,58 @@
   justify-content: space-between;
 }
 /* Navbar.jsx */
+
+/* Media Queries */
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  /* Navbar.jsx */
+  .nav-links {
+    width: 35%;
+  }
+  /* Navbar.jsx */
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  /* Navbar.jsx */
+  .nav-links {
+    width: 45%;
+  }
+  /* Navbar.jsx */
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  /* Navbar.jsx */
+  .nav-links {
+    width: 55%;
+  }
+  /* Navbar.jsx */
+}
+
+/* Small devices (phones, portrait tablets and large phones, 550px and down) */
+@media only screen and (max-width: 550px) {
+  /* Navbar.jsx */
+  .navbar a {
+    font-size: 1.1rem;
+  }
+  
+  .nav-links {
+    width: 65%;
+  }
+  /* Navbar.jsx */
+}
+
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+  /* Navbar.jsx */
+  .navbar a {
+    font-size: 0.85rem;
+  }
+  
+  .nav-links {
+    width: 70%;
+  }
+  /* Navbar.jsx */
+}
+
