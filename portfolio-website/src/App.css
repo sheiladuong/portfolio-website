@@ -37,23 +37,31 @@
   margin: 100px 0;
   display: flex;
   place-content: center;
+  gap: 100px;
+}
+.aboutme-container .title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutme-container .title-section .name, .title {
+  margin: 0; 
+  font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 .aboutme-container .title-section .name {
-  font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  margin: 0; 
+  font-size: 1.6rem;
 }
 .aboutme-container .title-section .title {
-  font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  margin: 0; 
+  font-size: 4rem;
 }
 .aboutme-container .title-section .script {
   font-family: 'Petit Formal Script', Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .headshot-section img {
-  width: 15rem;
+  width: 18rem;
+  border-radius: 15%;
 }
 /* AboutMe.jsx */
 
@@ -74,6 +82,23 @@
     width: 45%;
   }
   /* Navbar.jsx */
+
+  /* AboutMe.jsx */
+  .aboutme-container {
+    gap: 50px;
+  }
+
+  .aboutme-container .title-section .name {
+    font-size: 1.3rem;
+  }
+  .aboutme-container .title-section .title {
+    font-size: 3.5rem;
+  }
+  
+  .headshot-section img {
+    width: 15rem;
+  }
+  /* AboutMe.jsx */
 }
 
 /* Medium devices (landscape tablets, 768px and down) */
@@ -83,6 +108,19 @@
     width: 55%;
   }
   /* Navbar.jsx */
+
+  /* AboutMe.jsx */
+  .aboutme-container .title-section .name {
+    font-size: 1rem;
+  }
+  .aboutme-container .title-section .title {
+    font-size: 2.5rem;
+  }
+  
+  .headshot-section img {
+    width: 12rem;
+  }
+  /* AboutMe.jsx */
 }
 
 /* Small devices (phones, portrait tablets and large phones, 550px and down) */
@@ -96,6 +134,24 @@
     width: 65%;
   }
   /* Navbar.jsx */
+
+  /* AboutMe.jsx */
+  .aboutme-container {
+    margin: 50px 0;
+    gap: 30px;
+  }
+  
+  .aboutme-container .title-section .name {
+    font-size: .8rem;
+  }
+  .aboutme-container .title-section .title {
+    font-size: 1.9rem;
+  }
+  
+  .headshot-section img {
+    width: 8rem;
+  }
+  /* AboutMe.jsx */
 }
 
 /* Extra small devices (phones, 400px and down) */
@@ -109,4 +165,17 @@
     width: 70%;
   }
   /* Navbar.jsx */
+
+  /* AboutMe.jsx */
+  .aboutme-container .title-section .name {
+    font-size: .6rem;
+  }
+  .aboutme-container .title-section .title {
+    font-size: 1.5rem;
+  }
+  
+  .headshot-section img {
+    width: 5.5rem;
+  }
+  /* AboutMe.jsx */
 }
