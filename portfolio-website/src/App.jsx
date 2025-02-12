@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar.jsx'
-import AboutMe from './components/AboutMe.jsx'
+import Title from './components/Title.jsx'
 import './App.css'
 
 function App() {
