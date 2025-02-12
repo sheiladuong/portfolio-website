@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar.jsx'
 import Title from './components/Title.jsx'
+import Keywords from './components/Keywords.jsx'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Title />
+      <Keywords />
     </>
   )
 }

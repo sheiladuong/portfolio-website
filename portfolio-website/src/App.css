@@ -179,3 +179,59 @@
   }
   /* AboutMe.jsx */
 }
+
+/* Keywords.jsx */
+.scroller {
+  width: 100%;
+}
+
+.scroller-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  list-style: none;
+  font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600; 
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 5%,
+    white 95%,
+    transparent
+  );
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    white 5%,
+    white 95%,
+    transparent
+  );
+}
+
+.scroller[data-animated="true"] .scroller-items {
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 250s) 
+  var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+/* Keywords.jsx */
