@@ -1,6 +1,5 @@
-import React from 'react'
-
 function Title() {
+
     return (
         <>
         <div className='aboutme-container'>
@@ -14,6 +13,7 @@ function Title() {
         </div>
         </>
     )
+    
 }
 
 export default Title
