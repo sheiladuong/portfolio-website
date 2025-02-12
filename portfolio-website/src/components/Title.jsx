@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AboutMe() {
+function Title() {
     return (
         <>
         <div className='aboutme-container'>
@@ -16,4 +16,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe
+export default Title
