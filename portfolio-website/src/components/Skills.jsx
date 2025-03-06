@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 
-export default function Keywords() {
+export default function Skills() {
 
-    const keywords = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 
-        'Vite', 'Swift', 'SwiftUI', 'Java', 'Python', 'PHP', 'MySQL'];
+    const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 
+        'Swift', 'SwiftUI', 'Java', 'Python', 'PHP', 'MySQL'];
 
     useEffect(() => {
         const scrollers = document.querySelectorAll('.scroller');
@@ -32,8 +32,8 @@ export default function Keywords() {
         <>
         <div className='scroller' data-direction='right'>
             <ul className='scroller-items'>
-                {keywords.map((keyword) => (
-                    <li key={keyword}>{keyword}</li>
+                {skills.map((skill) => (
+                    <li key={skill}>{skill}</li>
                 ))}
             </ul>
         </div>
