@@ -1,8 +1,7 @@
-export default function Title() {
+export default function Hero() {
 
     return (
-        <>
-        <div className='title-container'>
+        <section id='hero' className='hero-container'>
             <div className='title-section'>
                 <h2 className='name'>SHEILA DUONG</h2>
                 <h1 className='title'>FRONT <span className="script">end</span><br />DEVELOPER</h1>
@@ -10,8 +9,7 @@ export default function Title() {
             <div className='headshot-section'>
                 <img src='./assets/placeholder.jpg' alt='Sheila Duong'></img>
             </div>
-        </div>
-        </>
+        </section>
     )
 
 }

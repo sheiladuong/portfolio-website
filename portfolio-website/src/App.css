@@ -32,30 +32,30 @@
 }
 /* Navbar.jsx */
 
-/* Title.jsx */
-.title-container {
+/* Hero.jsx */
+.hero-container {
   margin: 100px 0;
   display: flex;
   place-content: center;
   gap: 100px;
 }
-.title-container .title-section {
+.hero-container .title-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.title-container .title-section .name, .title {
+.hero-container .title-section .name, .title {
   margin: 0; 
   font-family: Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
-.title-container .title-section .name {
+.hero-container .title-section .name {
   font-size: 1.6rem;
 }
-.title-container .title-section .title {
+.hero-container .title-section .title {
   font-size: 4rem;
 }
-.title-container .title-section .script {
+.hero-container .title-section .script {
   font-family: 'Petit Formal Script', Syne, system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
 }
 
