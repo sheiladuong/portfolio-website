@@ -1,7 +1,5 @@
-function Projects() {
+export default function Projects() {
 
     
 
 }
-
-export default Projects

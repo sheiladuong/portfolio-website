@@ -1,4 +1,4 @@
-function Coop() {
+export default function Coop() {
 
     return (
         <>
@@ -14,5 +14,3 @@ function Coop() {
     )
 
 }
-
-export default Coop

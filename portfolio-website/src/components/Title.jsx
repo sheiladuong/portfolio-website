@@ -1,4 +1,4 @@
-function Title() {
+export default function Title() {
 
     return (
         <>
@@ -15,5 +15,3 @@ function Title() {
     )
 
 }
-
-export default Title

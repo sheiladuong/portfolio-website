@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-function Keywords() {
+export default function Keywords() {
 
     const keywords = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 
         'Vite', 'Swift', 'SwiftUI', 'Java', 'Python', 'PHP', 'MySQL'];
@@ -40,5 +40,3 @@ function Keywords() {
         </>
     )
 }
-
-export default Keywords
